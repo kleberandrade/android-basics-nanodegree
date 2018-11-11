@@ -8,9 +8,9 @@ User Input - You will learn how to make your apps interactive.
 * **Networking** - There are a huge amount of available API-s all over the internet, with the help of them you can build apps with dynamic content. You will learn about HTTP requests, JSON Parsing and threads.
 * **Data Storage** - Now you have the data, you need to store them somewhere, right? You'll learn about storing data with the help of SQLite.
 
-You will learn all of the above through 10 relevant projects step by step. These are te 10 projects I completed during the 6 month Android Basics Nanodegree by Google Scholarship:
+You will learn all of the above through 11 relevant projects step by step. These are te 7 projects I completed during the 6 month Android Basics Nanodegree by Google Scholarship:
 
-## Project 1 - Single Screen App
+## Project 1 - Build a Single Screen App
 
 **Project Description:** Design and implement a simple app that displays information about a small business.
 
@@ -23,20 +23,11 @@ You will learn all of the above through 10 relevant projects step by step. These
 ## Project 4 - Musical Structure App
 **Project Description:** Architect the user experience and technical design of an app to play music for a user.
 
-## Project 5 - Report Card
-**Project Description:** Create a custom Java class to model the information in a student report card.
-
-## Project 6 - Tour Guide App
+## Project 5 - Tour Guide App
 **Project Description:** Create an app to guide a user around a city or location of your choice!
 
-## Project  7 - Book Listing App
-**Project Description:** Create an app to list the published books on a given topic using the Google Books API.
-
-## Project  8 - News App
+## Project 6 - News App
 **Project Description:** Create an app to display recent news stories on a topic of your choice using a web API.
 
-## Project 9 - Habit Tracker App
-**Project Description:** Create an app to track your habits.
-
-## Project 10 - Inventory App
+## Project 7 - Inventory App
 **Project Description:** Create an app to track the inventory of a retail store, including current stock and supplier information.
