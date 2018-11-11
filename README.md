@@ -12,12 +12,31 @@ You will learn all of the above through 10 relevant projects step by step. These
 
 ## Project 1 - Single Screen App
 
-This app is a demonstration of layouts and displays a single screen with information about a university, Fatec Americana. The app includes ScrollView, LinearLayout, ImageView, and TextView. Material Design icons are included from https://materialdesignicons.com/.
+**Project Description:** Design and implement a simple app that displays information about a small business.
 
-<p align="center">
-  <img src="https://github.com/kleberandrade/udacity-android-basics/blob/master/Imagens/single_page_app.png" height="350"/>
-</p>
+##2 Score Keeper App
+**Project Description:** Implement an app to track scores between two teams within a game.
 
-## Project 2 - Score Keeper App
+##3 Quiz App
+**Project Description:** Design and implement a short quiz app about some topic you are familiar with.
 
-## Project 3 - Quiz App
+##4 Musical Structure App
+**Project Description:** Architect the user experience and technical design of an app to play music for a user.
+
+##5 Report Card
+**Project Description:** Create a custom Java class to model the information in a student report card.
+
+##6: Tour Guide App
+**Project Description:** Create an app to guide a user around a city or location of your choice!
+
+##7: Book Listing App
+**Project Description:** Create an app to list the published books on a given topic using the Google Books API.
+
+##8: News App
+**Project Description:** Create an app to display recent news stories on a topic of your choice using a web API.
+
+##9: Habit Tracker App
+**Project Description:** Create an app to track your habits.
+
+##10: Inventory App
+**Project Description:** Create an app to track the inventory of a retail store, including current stock and supplier information.
