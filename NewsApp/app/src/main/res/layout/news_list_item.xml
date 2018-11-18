@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/article_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/sixteen_dp"
+        android:layout_marginTop="@dimen/eight_dp"
+        android:layout_marginRight="@dimen/sixteen_dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/twenty_sp"
+        android:textStyle="bold"
+        tools:text="Title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/sixteen_dp"
+        android:layout_marginRight="@dimen/sixteen_dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/article_author"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:textColor="@color/colorBlack"
+            tools:text="16-11-2018" />
+
+        <TextView
+            android:id="@+id/article_section"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:textColor="@color/colorBlack"
+            tools:text="Article Section" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/sixteen_dp"
+        android:layout_marginRight="@dimen/sixteen_dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/article_publish_date"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:text="@string/tap_to_read_more"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold"
+            tools:text="See Full Article" />
+
+        <TextView
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:text="@string/tap_to_read_more"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold"
+            tools:text="See Full Article" />
+
+    </LinearLayout>
+
+</LinearLayout>

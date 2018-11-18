@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Xbox-News</string>
+
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="no_news">No news found.</string>
+
+    <string name="tap_to_read_more">Tap to Read More</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <string name="settings_max_articles_label">Maximum # of Articles</string>
+    <string name="settings_max_articles_key">max articles</string>
+    <string name="settings_max_articles_default">10</string>
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_relevance_value</string>
+
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+</resources>
