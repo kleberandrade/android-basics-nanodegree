@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PlayingActivity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/twenty_one_sp"
+        android:layout_marginEnd="@dimen/eight_dp"
+        android:src="@drawable/ic_local_pizza"
+        android:tint="@color/colorWhite"
+        app:fabSize="mini"
+        tools:ignore="RelativeOverlap" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_weight="1"
+            tools:ignore="InefficientWeight">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/eighty_dp"
+                    android:background="@color/colorPrimaryDark">
+
+                    <TextView
+                        style="@style/AppTheme.Title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/eight_dp"
+                        android:text="@string/title_now_playing" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/intro_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/sixty_four_dp"
+                    android:text="@string/now_playing_intro" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/coverImageView"
+                        android:layout_width="@dimen/two_hundred_dp"
+                        android:layout_height="@dimen/two_hundred_dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/twenty_one_sp"
+                        android:background="@drawable/cover"
+                        android:contentDescription="@string/cover_description"
+                        android:elevation="@dimen/eight_dp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/downloadIcon"
+                            android:layout_width="@dimen/twenty_one_sp"
+                            android:layout_height="@dimen/twenty_one_sp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginStart="@dimen/twenty_one_sp"
+                            android:contentDescription="@string/download"
+                            android:src="@drawable/ic_action_download_48"
+                            android:tint="@color/colorWhite" />
+
+                        <LinearLayout
+                            android:layout_width="@dimen/zero_dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            tools:ignore="InefficientWeight">
+
+                            <TextView
+                                style="@style/styleArtist"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/mock_artist" />
+
+                            <TextView
+                                style="@style/styleSongName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/mock_song_name" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/menuIcon"
+                            android:layout_width="@dimen/twenty_one_sp"
+                            android:layout_height="@dimen/twenty_one_sp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginEnd="@dimen/twenty_one_sp"
+                            android:contentDescription="@string/menu"
+                            android:src="@drawable/ic_menu_48"
+                            android:tint="@color/colorWhite" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/twenty_one_sp"
+                        android:layout_marginLeft="@dimen/twenty_one_sp"
+                        android:layout_marginTop="@dimen/twenty_one_sp"
+                        android:layout_marginEnd="@dimen/twenty_one_sp"
+                        android:layout_marginRight="@dimen/twenty_one_sp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            style="@style/track_length"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/track_remaining" />
+
+                        <SeekBar
+                            android:layout_width="@dimen/zero_dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/two_dp"
+                            android:layout_marginLeft="@dimen/two_dp"
+                            android:layout_marginEnd="@dimen/two_dp"
+                            android:layout_marginRight="@dimen/two_dp"
+                            android:layout_weight="1"
+                            tools:ignore="InefficientWeight" />
+
+                        <TextView
+                            style="@style/track_length"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/track_total_length" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="@dimen/twelve_sp"
+                        android:layout_marginBottom="@dimen/twelve_sp"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/eight_dp"
+                            android:contentDescription="@string/back"
+                            android:src="@drawable/ic_skip_previous" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/play"
+                            android:src="@drawable/ic_play_circle_outline"
+                            android:tint="@color/colorWhite" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/eight_dp"
+                            android:contentDescription="@string/next"
+                            android:src="@drawable/ic_skip_next" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlack"
+            android:orientation="horizontal"
+            android:padding="@dimen/eight_dp">
+
+            <Button
+                android:id="@+id/homeButton"
+                style="@style/AppTheme.Button.Inactive"
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_home_18"
+                android:onClick="changeHomeOnClick"
+                android:text="@string/title_home" />
+
+            <Button
+                android:id="@+id/browseButton"
+                style="@style/AppTheme.Button.Inactive"
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_search_18"
+                android:onClick="changeBrowseOnClick"
+                android:text="@string/title_browse" />
+
+            <Button
+                android:id="@+id/nowPlayingButton"
+                style="@style/AppTheme.Button"
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_play_circle_outline_18"
+                android:text="@string/title_now_playing" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+

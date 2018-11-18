@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    tools:context=".activities.PaymentActivity">
+
+    <TextView
+        style="@style/AppTheme.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_coffe" />
+
+    <TextView
+        style="@style/AppTheme.SubTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/support_me" />
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:padding="@dimen/sixteen_dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero_dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:ignore="InefficientWeight">
+
+        <TextView
+            style="@style/intro_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/sixteen_dp"
+            android:text="@string/payment_intro" />
+
+        <ImageView
+            android:id="@+id/payPalImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:clickable="true"
+            android:contentDescription="@string/paypal"
+            android:focusable="true"
+            android:paddingHorizontal="@dimen/sixty_four_dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/paypal_donate"
+            tools:ignore="UnusedAttribute" />
+
+        <TextView
+            style="@style/intro_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlack"
+            android:text="@string/paypal_intro" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlack"
+        android:orientation="horizontal"
+        android:padding="@dimen/eight_dp">
+
+        <Button
+            android:id="@+id/homeButton"
+            style="@style/AppTheme.Button.Inactive"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_home_18"
+            android:onClick="changeHomeOnClick"
+            android:text="@string/title_home" />
+
+        <Button
+            android:id="@+id/browseButton"
+            style="@style/AppTheme.Button.Inactive"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_search_18"
+            android:onClick="changeBrowseOnClick"
+            android:text="@string/title_browse" />
+
+        <Button
+            android:id="@+id/nowPlayingButton"
+            style="@style/AppTheme.Button.Inactive"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_play_circle_outline_18"
+            android:onClick="changePlayingOnClick"
+            android:text="@string/title_now_playing" />
+
+    </LinearLayout>
+
+</LinearLayout>

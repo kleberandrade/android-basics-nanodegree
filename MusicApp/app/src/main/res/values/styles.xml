@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Title">
+        <item name="android:textSize">@dimen/thirty_two_sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorConcrete</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:padding">@dimen/eight_dp</item>
+    </style>
+
+    <style name="AppTheme.SubTitle">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/twenty_one_sp</item>
+        <item name="android:padding">@dimen/sixteen_dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:background">@color/colorBlack</item>
+        <item name="android:drawablePadding">@dimen/eight_dp</item>
+        <item name="android:drawableTint" tools:targetApi="m">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:textSize">@dimen/ten_sp</item>
+    </style>
+
+    <style name="AppTheme.Button.Inactive" parent="AppTheme.Button">
+        <item name="android:drawableTint" tools:targetApi="m">@color/colorConcrete</item>
+        <item name="android:textColor">@color/colorConcrete</item>
+    </style>
+
+
+    <style name="intro_text">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:paddingLeft">@dimen/eight_dp</item>
+        <item name="android:paddingRight">@dimen/eight_dp</item>
+        <item name="android:paddingTop">@dimen/eight_dp</item>
+        <item name="android:paddingBottom">@dimen/eight_dp</item>
+        <item name="android:background">@color/colorBlack</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="styleArtist">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/eight_dp</item>
+    </style>
+
+    <style name="styleSongName">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+    <style name="track_length">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+</resources>
