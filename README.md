@@ -62,7 +62,7 @@ You will learn all of the above through 11 relevant projects step by step. These
 ## Verified Certification of Completion
 
 <p align="center">
-    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/certified.PNG" height="400"/> 
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/certified.PNG" height="600"/> 
 </p>
 
 License
