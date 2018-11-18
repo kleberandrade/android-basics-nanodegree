@@ -32,6 +32,14 @@ You will learn all of the above through 11 relevant projects step by step. These
 ## Project 6 - News App
 **Project Description:** Create an app to display recent news stories on a topic of your choice using a web API.
 
+<p align="center">
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/news_app_1.jpg" height="400"/>
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/news_app_2.jpg" height="400"/>
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/news_app_3.jpg" height="400"/>
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/news_app_4.jpg" height="400"/>
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/news_app_5.jpg" height="400"/>
+</p>
+
 ## Project 7 - Inventory App
 **Project Description:** Create an app to track the inventory of a retail store, including current stock and supplier information.
 
