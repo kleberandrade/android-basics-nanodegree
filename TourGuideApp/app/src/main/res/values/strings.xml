@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">University</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="school_image_description">School image</string>
+    <string name="School">School</string>
+    <string name="phone">Phone</string>
+    <string name="description">Description</string>
+    <string name="course">Course</string>
+    <string name="event">Event</string>
+    <string name="news">News</string>
+    <string name="date">Date</string>
+    <string name="event_image">Event image</string>
+    <string name="title">Title</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="course_name_1">Analysis and systems development</string>
+    <string name="course_description_1">Desktop, web and mobile application development course</string>
+    <string name="course_name_2">Digital Games</string>
+    <string name="course_description_2">Course to learn how to make games using 3D unity</string>
+    <string name="course_name_3">Information security</string>
+    <string name="course_description_3">Learn how to protect yourself from network attacks</string>
+    <string name="event_name_1">Halloween</string>
+    <string name="event_date_1">31/10/2018</string>
+    <string name="event_name_2">Scientific research</string>
+    <string name="event_date_2">20/08/2018</string>
+    <string name="news_title_1">American company invoices more than 8 million per month</string>
+    <string name="news_title_2">New Digital Games course launched at Fatec Americana</string>
+    <string name="news_date_1">13/11/2018</string>
+    <string name="news_date_2">10/11/2018</string>
+    <string name="school_name_1">Fatec Americana</string>
+    <string name="school_address_1" tools:ignore="TypographyDashes">R. Emílio de Menezes, S/N – Gleba B, Americana – SP, 13469-111</string>
+    <string name="school_phone_1" tools:ignore="TypographyDashes">(19) 3406–3297</string>
+    <string name="school_name_2">Fatec Campinas</string>
+    <string name="school_address_2" tools:ignore="TypographyDashes">Av Cônego Antonio Rocatto nº 593 Jd Santa Mônica, Campinas - SP</string>
+    <string name="school_phone_2" tools:ignore="TypographyDashes">19) 3216–6474</string>
+
+</resources>

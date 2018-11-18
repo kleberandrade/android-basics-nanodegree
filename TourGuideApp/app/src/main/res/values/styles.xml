@@ -1,0 +1,26 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Card" parent="Theme.AppCompat.Light">
+        <item name="cardCornerRadius">@dimen/two_dp</item>
+        <item name="cardElevation">@dimen/two_dp</item>
+        <item name="contentPaddingBottom">@dimen/sixteen_dp</item>
+        <item name="contentPaddingTop">@dimen/sixteen_dp</item>
+        <item name="contentPaddingLeft">@dimen/sixteen_dp</item>
+        <item name="contentPaddingRight">@dimen/sixteen_dp</item>
+        <item name="cardBackgroundColor">@color/colorWhite</item>
+    </style>
+
+</resources>
