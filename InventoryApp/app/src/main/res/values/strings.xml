@@ -1,0 +1,54 @@
+<resources>
+    <!-- standard -->
+    <string name="app_name">Book Inventory</string>
+
+    <!-- database -->
+    <string name="error_database_create">Error creating database</string>
+    <string name="error_database_upgrade">Error upgrade database</string>
+
+    <!-- errors -->
+    <string name="error_zero_book">We do not have this book anymore</string>
+
+    <string name="edit_product_name">Book name</string>
+    <string name="edit_product_price">Book price</string>
+    <string name="edit_product_quantity">Book quantity</string>
+    <string name="edit_supplier_name">Supplier name</string>
+    <string name="edit_supplier_phone_number">Supplier phone number</string>
+    <string name="book">Book</string>
+    <string name="supplier">Supplier</string>
+    <string name="menu_save">save</string>
+
+    <!-- Editor activity -->
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="order">Order</string>
+
+    <!-- About activity -->
+    <string name="about">About</string>
+    <string name="developed_by">Developed by</string>
+    <string name="author_name">Kleber Andrade</string>
+    <string name="author_email">pdjkleber@gmail.com</string>
+
+    <!-- editor errors -->
+    <string name="error_insert_book_table">Error with saving product</string>
+    <string name="required_field">Required field</string>
+    <string name="cannot_be_negative">Cannot be negative</string>
+    <string name="success_insert_book_table">Product saved with row id:</string>
+    <string name="form_contain_errors">form contain errors</string>
+    <string name="books">BOOKS</string>
+    <string name="catalog_manager">catalog manager</string>
+    <string name="empty_list_title">It\'s a bit lonely here</string>
+    <string name="empty_list_subtitle">Get started by adding a book</string>
+    <string name="zero">0</string>
+    <string name="new_book">New Book</string>
+    <string name="edit_book">Edit Book</string>
+    <string name="catalog_book">Catalog Books</string>
+    <string name="success_edit_book">Edit book with success</string>
+    <string name="message_delete_book">Delete this book?</string>
+    <string name="confirm_delete_book">Deleted book</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_invalid_phone_number">Invalid phone number</string>
+    <string name="decrease">decrease</string>
+    <string name="increase">increase</string>
+    <string name="full_name_author">Kleber de Oliveira Andrade</string>
+</resources>

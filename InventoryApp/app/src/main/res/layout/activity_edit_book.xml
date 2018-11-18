@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_16">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_16"
+            android:text="@string/book"
+            android:textSize="@dimen/sp_21"
+            android:textStyle="bold" />
+
+        <!--Product Name Field-->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layout_product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edit_product_name"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!--Price Field-->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layout_product_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/product_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edit_product_price"
+                android:inputType="numberDecimal" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!--Quantity Field-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Quantity Field-->
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/layout_product_quantity"
+                android:layout_weight="1"
+                android:layout_marginEnd="@dimen/dp_16"
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/product_quantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edit_product_quantity"
+                    android:inputType="numberSigned" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageButton
+                android:id="@+id/decrease_quantity_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/dp_16"
+                android:contentDescription="@string/decrease"
+                android:background="@color/colorTransparent"
+                android:src="@drawable/ic_remove_circle" />
+
+            <ImageButton
+                android:id="@+id/increase_quantity_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/increase"
+                android:layout_gravity="center"
+                android:background="@color/colorTransparent"
+                android:src="@drawable/ic_add_circle" />
+
+        </LinearLayout>
+
+        <!--Supplier Label-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_16"
+            android:layout_marginBottom="@dimen/dp_16"
+            android:text="@string/supplier"
+            android:textSize="@dimen/sp_21"
+            android:textStyle="bold" />
+
+        <!--Supplier Name Field-->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layout_supplier_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/supplier_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edit_supplier_name"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!--Supplier Contact Field-->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layout_supplier_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/supplier_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edit_supplier_phone_number"
+                android:inputType="phone" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/book_delete_button"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/dp_8"
+            android:background="@color/colorPrimary"
+            android:text="@string/delete"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/book_order_button"
+            android:layout_width="@dimen/dp_0"
+            android:padding="@dimen/dp_8"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/order"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/book_save_button"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/dp_8"
+            android:layout_marginStart="@dimen/dp_8"
+            android:background="@color/colorPrimary"
+            android:text="@string/save"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+</LinearLayout>
