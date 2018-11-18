@@ -29,6 +29,13 @@ You will learn all of the above through 11 relevant projects step by step. These
 ## Project 5 - Tour Guide App
 **Project Description:** Create an app to guide a user around a city or location of your choice!
 
+<p align="center">
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/tour_app_1.jpg" height="400"/>
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/tour_app_2.jpg" height="400"/>
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/tour_app_3.jpg" height="400"/>
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/tour_app_4.jpg" height="400"/>
+</p>
+
 ## Project 6 - News App
 **Project Description:** Create an app to display recent news stories on a topic of your choice using a web API.
 
@@ -50,6 +57,12 @@ You will learn all of the above through 11 relevant projects step by step. These
     <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/inventory_app_4.jpg" height="400"/>  
     <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/inventory_app_5.jpg" height="400"/>  
     <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/inventory_app_6.jpg" height="400"/>  
+</p>
+
+## Verified Certification of Completion
+
+<p align="center">
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/certified.PNG" height="400"/> 
 </p>
 
 License
