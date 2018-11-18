@@ -31,6 +31,13 @@ You will learn all of the above through 11 relevant projects step by step. These
 ## Project 4 - Musical Structure App
 **Project Description:** Architect the user experience and technical design of an app to play music for a user.
 
+<p align="center">
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/music_app_1.jpg" height="400"/>
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/music_app_2.jpg" height="400"/>
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/music_app_3.jpg" height="400"/>
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/music_app_4.jpg" height="400"/>
+</p>
+
 ## Project 5 - Tour Guide App
 **Project Description:** Create an app to guide a user around a city or location of your choice!
 
