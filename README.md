@@ -11,7 +11,6 @@ User Input - You will learn how to make your apps interactive.
 You will learn all of the above through 11 relevant projects step by step. These are te 7 projects I completed during the 6 month Android Basics Nanodegree by Google Scholarship:
 
 ## Project 1 - Build a Single Screen App
-
 **Project Description:** Design and implement a simple app that displays information about a small business.
 
 ## Project 2 - Score Keeper App
@@ -32,6 +31,14 @@ You will learn all of the above through 11 relevant projects step by step. These
 ## Project 7 - Inventory App
 **Project Description:** Create an app to track the inventory of a retail store, including current stock and supplier information.
 
+<p align="center">
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/inventory_app_1.jpg" height="400"/>  
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/inventory_app_2.jpg" height="400"/>  
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/inventory_app_3.jpg" height="400"/>  
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/inventory_app_4.jpg" height="400"/>  
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/inventory_app_5.jpg" height="400"/>  
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/inventory_app_6.jpg" height="400"/>  
+</p>
 
 Licença
 ----
