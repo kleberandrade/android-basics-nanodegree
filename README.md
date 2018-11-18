@@ -1,4 +1,4 @@
-# Android Basics Nanodegree by Google (My 10 Projects)
+# Android Basics Nanodegree by Google (My 7 Projects)
 
 Topics covered in the Nanodegree program:
 
