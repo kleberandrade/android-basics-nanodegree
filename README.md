@@ -13,6 +13,10 @@ You will learn all of the above through 11 relevant projects step by step. These
 ## Project 1 - Build a Single Screen App
 **Project Description:** Design and implement a simple app that displays information about a small business.
 
+<p align="center">
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/single_page_app.png" height="400"/>  
+</p>
+
 ## Project 2 - Score Keeper App
 **Project Description:** Implement an app to track scores between two teams within a game.
 
@@ -40,7 +44,7 @@ You will learn all of the above through 11 relevant projects step by step. These
     <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/inventory_app_6.jpg" height="400"/>  
 </p>
 
-Licença
+License
 ----
 
     Copyright 2018 Kleber de Oliveira Andrade
