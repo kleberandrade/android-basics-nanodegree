@@ -20,6 +20,11 @@ You will learn all of the above through 11 relevant projects step by step. These
 ## Project 2 - Score Keeper App
 **Project Description:** Implement an app to track scores between two teams within a game.
 
+<p align="center">
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/score_keeper_app_1.jpg" height="400"/>
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/score_keeper_app_2.jpg" height="400"/>
+</p>
+
 ## Project 3 - Quiz App
 **Project Description:** Design and implement a short quiz app about some topic you are familiar with.
 
