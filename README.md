@@ -28,6 +28,12 @@ You will learn all of the above through 11 relevant projects step by step. These
 ## Project 3 - Quiz App
 **Project Description:** Design and implement a short quiz app about some topic you are familiar with.
 
+<p align="center">
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/quiz_app_1.jpg" height="400"/>
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/quiz_app_2.jpg" height="400"/>
+    <img src="https://github.com/kleberandrade/android-basics-nanodegree/blob/master/Imagens/quiz_app_3.jpg" height="400"/>
+</p>
+
 ## Project 4 - Musical Structure App
 **Project Description:** Architect the user experience and technical design of an app to play music for a user.
 
